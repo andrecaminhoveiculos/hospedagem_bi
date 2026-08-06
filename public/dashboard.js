@@ -36,7 +36,8 @@ function podeVerTela(chaveTela) {
 const relatorios = {
     vendas: { nome: 'VENDAS' },
     'pos-vendas': { nome: 'PÓS-VENDAS' },
-    dre: { nome: 'DRE' }
+    dre: { nome: 'DRE' },
+    'imobilizados': { nome: 'IMOBILIZADOS' }
 };
 
 document.getElementById('txt-nome').innerText = dadosUsuario.nome || '';

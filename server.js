@@ -184,7 +184,8 @@ app.get('/api/link-relatorio/:tela', verificarToken, (req, res) => {
     const relatorios = {
         'vendas': process.env.LINK_VENDAS,
         'pos-vendas': process.env.LINK_POS_VENDAS,
-        'dre': process.env.LINK_DRE
+        'dre': process.env.LINK_DRE,
+        'imobilizados': process.env.LINK_IMOBILIZADOS
     };
 
     const telasPermitidas = Array.isArray(req.user.telas_permitidas)
