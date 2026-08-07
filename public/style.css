@@ -530,3 +530,7 @@ iframe {
         grid-template-columns: 1fr !important;
     }
 }
+
+#reportContainer { 
+    zoom: 1.10;
+}
